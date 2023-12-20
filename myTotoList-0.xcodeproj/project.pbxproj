@@ -9,21 +9,28 @@
 /* Begin PBXBuildFile section */
 		1F954C282B317D8400525064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F954C272B317D8400525064 /* AppDelegate.swift */; };
 		1F954C2A2B317D8400525064 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F954C292B317D8400525064 /* SceneDelegate.swift */; };
-		1F954C2C2B317D8400525064 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F954C2B2B317D8400525064 /* ViewController.swift */; };
+		1F954C2C2B317D8400525064 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F954C2B2B317D8400525064 /* TodoListViewController.swift */; };
 		1F954C2F2B317D8400525064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F954C2D2B317D8400525064 /* Main.storyboard */; };
 		1F954C312B317D8500525064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F954C302B317D8500525064 /* Assets.xcassets */; };
 		1F954C342B317D8500525064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F954C322B317D8500525064 /* LaunchScreen.storyboard */; };
+		1F954C3C2B317D9500525064 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F954C3B2B317D9500525064 /* Todo.swift */; };
+		1FB305E12B326CEF00A7BCAD /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 1FB305E02B326CEF00A7BCAD /* Lottie */; };
+		1FB305E32B326E7A00A7BCAD /* Animation-todolist.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FB305E22B326E7A00A7BCAD /* Animation-todolist.json */; };
+		1FB305E52B3272C300A7BCAD /* AniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB305E42B3272C300A7BCAD /* AniViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F954C242B317D8400525064 /* myTotoList-0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "myTotoList-0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F954C272B317D8400525064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F954C292B317D8400525064 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F954C2B2B317D8400525064 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F954C2B2B317D8400525064 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		1F954C2E2B317D8400525064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F954C302B317D8500525064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F954C332B317D8500525064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F954C352B317D8500525064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F954C3B2B317D9500525064 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		1FB305E22B326E7A00A7BCAD /* Animation-todolist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation-todolist.json"; sourceTree = "<group>"; };
+		1FB305E42B3272C300A7BCAD /* AniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB305E12B326CEF00A7BCAD /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,11 +66,14 @@
 			children = (
 				1F954C272B317D8400525064 /* AppDelegate.swift */,
 				1F954C292B317D8400525064 /* SceneDelegate.swift */,
-				1F954C2B2B317D8400525064 /* ViewController.swift */,
-				1F954C2D2B317D8400525064 /* Main.storyboard */,
 				1F954C302B317D8500525064 /* Assets.xcassets */,
+				1FB305E22B326E7A00A7BCAD /* Animation-todolist.json */,
 				1F954C322B317D8500525064 /* LaunchScreen.storyboard */,
 				1F954C352B317D8500525064 /* Info.plist */,
+				1F954C2D2B317D8400525064 /* Main.storyboard */,
+				1F954C3B2B317D9500525064 /* Todo.swift */,
+				1F954C2B2B317D8400525064 /* TodoListViewController.swift */,
+				1FB305E42B3272C300A7BCAD /* AniViewController.swift */,
 			);
 			path = "myTotoList-0";
 			sourceTree = "<group>";
@@ -83,6 +94,9 @@
 			dependencies = (
 			);
 			name = "myTotoList-0";
+			packageProductDependencies = (
+				1FB305E02B326CEF00A7BCAD /* Lottie */,
+			);
 			productName = "myTotoList-0";
 			productReference = 1F954C242B317D8400525064 /* myTotoList-0.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +125,9 @@
 				Base,
 			);
 			mainGroup = 1F954C1B2B317D8400525064;
+			packageReferences = (
+				1FB305DF2B326CEF00A7BCAD /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = 1F954C252B317D8400525064 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +145,7 @@
 				1F954C342B317D8500525064 /* LaunchScreen.storyboard in Resources */,
 				1F954C312B317D8500525064 /* Assets.xcassets in Resources */,
 				1F954C2F2B317D8400525064 /* Main.storyboard in Resources */,
+				1FB305E32B326E7A00A7BCAD /* Animation-todolist.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F954C2C2B317D8400525064 /* ViewController.swift in Sources */,
+				1F954C2C2B317D8400525064 /* TodoListViewController.swift in Sources */,
+				1FB305E52B3272C300A7BCAD /* AniViewController.swift in Sources */,
 				1F954C282B317D8400525064 /* AppDelegate.swift in Sources */,
 				1F954C2A2B317D8400525064 /* SceneDelegate.swift in Sources */,
+				1F954C3C2B317D9500525064 /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +381,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1FB305DF2B326CEF00A7BCAD /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1FB305E02B326CEF00A7BCAD /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FB305DF2B326CEF00A7BCAD /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1F954C1C2B317D8400525064 /* Project object */;
 }
